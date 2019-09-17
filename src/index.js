@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import Swipe from 'swipe-js-iso';
+import Swipe from 'swipe-js-iso-fork';
 import isEqual from 'fast-deep-equal';
 
 class ReactSwipe extends Component {

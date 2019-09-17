@@ -24805,7 +24805,7 @@ if (process.env.NODE_ENV === 'production') {
     }
 
     function stop() {
-      delay = 0;
+      delay = options.auto || 0;
       clearTimeout(interval);
     }
 
@@ -25127,7 +25127,7 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 
 var _react = _interopRequireWildcard(require("react"));
 
-var _swipeJsIso = _interopRequireDefault(require("swipe-js-iso"));
+var _swipeJsIsoFork = _interopRequireDefault(require("swipe-js-iso-fork"));
 
 var _fastDeepEqual = _interopRequireDefault(require("fast-deep-equal"));
 
@@ -25171,7 +25171,7 @@ function (_Component) {
   _createClass(ReactSwipe, [{
     key: "componentDidMount",
     value: function componentDidMount() {
-      this.swipe = (0, _swipeJsIso.default)(this.containerEl, this.props.swipeOptions);
+      this.swipe = (0, _swipeJsIsoFork.default)(this.containerEl, this.props.swipeOptions);
     }
   }, {
     key: "componentDidUpdate",
@@ -25183,7 +25183,7 @@ function (_Component) {
 
       if (shouldUpdateSwipeInstance) {
         this.swipe.kill();
-        this.swipe = (0, _swipeJsIso.default)(this.containerEl, this.props.swipeOptions);
+        this.swipe = (0, _swipeJsIsoFork.default)(this.containerEl, this.props.swipeOptions);
       }
     }
   }, {
@@ -25303,4 +25303,4 @@ var _default = ReactSwipe;
 exports.default = _default;
 module.exports = exports["default"];
 
-},{"fast-deep-equal":2,"prop-types":11,"react":23,"swipe-js-iso":32}]},{},[1]);
+},{"fast-deep-equal":2,"prop-types":11,"react":23,"swipe-js-iso-fork":32}]},{},[1]);
