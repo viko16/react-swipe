@@ -1,11 +1,6 @@
-# react-swipe
+# Just another fork of react-swipe
 
-[![build status](http://img.shields.io/travis/voronianski/react-swipe.svg?style=flat)](https://travis-ci.org/voronianski/react-swipe)
-[![npm version](http://badge.fury.io/js/react-swipe.svg)](http://badge.fury.io/js/react-swipe)
-[![Download Count](http://img.shields.io/npm/dm/react-swipe.svg?style=flat)](http://www.npmjs.com/package/react-swipe)
-<a href="https://www.buymeacoffee.com/voronianski" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" height="20" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-> [Brad Birdsall](https://github.com/thebird)'s [Swipe.js](https://github.com/voronianski/swipe-js-iso) as a [React](http://facebook.github.io/react) component.
+[![npm version](http://badge.fury.io/js/react-swipe-fork.svg)](http://badge.fury.io/js/react-swipe-fork)
 
 ## Demo
 
@@ -16,7 +11,7 @@ Check out the [demo](http://voronianski.github.io/react-swipe/demo/) from a mobi
 ## Install
 
 ```bash
-npm install react swipe-js-iso react-swipe --save
+npm install react swipe-js-iso-fork react-swipe-fork --save
 ```
 
 ## Usage

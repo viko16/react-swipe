@@ -1,5 +1,5 @@
 {
-  "name": "react-swipe",
+  "name": "react-swipe-fork",
   "version": "6.0.4",
   "description": "Brad Birdsall's Swipe.js as a React component",
   "homepage": "https://github.com/voronianski/react-swipe",
@@ -41,7 +41,7 @@
   "dependencies": {
     "fast-deep-equal": "^2.0.1",
     "prop-types": "^15.6.0",
-    "swipe-js-iso": "^2.1.5"
+    "swipe-js-iso-fork": "^2.1.7"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
